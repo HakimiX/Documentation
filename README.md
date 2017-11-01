@@ -60,9 +60,9 @@ We will keep a close relationship with vendors to fix problems as they appear, p
 
 The system will have three different interfaces:
 
-* User interfaces - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system.
-* Communication interfaces - the system shall use the HTTP protocol for communication over the internet.
-* Application Programming Interface (API) - External programs shall be able to publish posts and comments to the system.
+* __User interfaces__ - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system.
+* __Communication interfaces__ - the system shall use the HTTP protocol for communication over the internet.
+* __Application Programming Interface (API)__ - External programs shall be able to publish posts and comments to the system.
 
 
 ## Architecture 
@@ -105,7 +105,7 @@ The objective of writing a bug report is to enable us to visualize the problem. 
 
 Bug reports will be handled through Githubs issues tab on the project repository : REP HERE 
 
-Submitting a report: 
+__Submitting a report:__ 
 * Include a Bug ID to make reporting and referring easier. 
 * Include a Bug Title about the outcome in the bug. 
 * Include Priority based on the severity of the bug. Minimal, Major, Critical etc. 
@@ -118,21 +118,27 @@ Submitting a report:
 Feel free to provide any feedback in regards to the system. We take all feedbacks with open arms. 
 
 
+## System Access & Credentials
+
+The front-end can be accessed via http://165.227.136.184/
+
+Credentials will be negotiated later
+
 ## Team Behind
 
-Dev Ops - Kevin
+__Dev Ops__ - Kevin
 Email: MertDK@live.dk
 
-Product Owner - Mustafa
+__Product Owner__ - Mustafa
 Email: Mustafa.hakimi94@gmail.com
 
-Lead Developer - Ismail
+__Lead Developer__ - Ismail
 Email: i@bigstep.dk
 
-Architect - Mazlum
+__Architect__ - Mazlum
 Email: M@bigstep.dk
 
-Tester - Kristijan
+__Tester__ - Kristijan
 Email: Kristijan222@live.dk
 
 
