@@ -78,18 +78,18 @@ The design is separated into different areas of concern, which minimizes the com
 ### Design Principles
 
 While implementing the Hacker news system, we have made use of key design principles, which help us create an architecture that adheres to proven principles, minimizes maintenance requirements and promotes usability and extendibility. The key principles are:
-* _Single Responsibility Principle (SRP)_.  Each component is responsible for only a specific feature or functionality. 
-* Principle of Least Knowledge (LOD). A component does not know about internal details of other components or objects.
-* Separation of concerns (SOC). The application is divided into distinct features with as little overlap in functionality. The focus is on minimizing the interaction points to achieve low coupling and high cohesion. 
-* Don’t Repeat Yourself (DRY). Intent is only specified in one place. Specific functionality should be implemented in only one component; the functionality is not duplicated in any other component. 
+* __Single Responsibility Principle (SRP)__.  Each component is responsible for only a specific feature or functionality. 
+* __Principle of Least Knowledge (LOD)__. A component does not know about internal details of other components or objects.
+* __Separation of concerns (SOC)__. The application is divided into distinct features with as little overlap in functionality. The focus is on minimizing the interaction points to achieve low coupling and high cohesion. 
+* __Don’t Repeat Yourself (DRY)__. Intent is only specified in one place. Specific functionality should be implemented in only one component; the functionality is not duplicated in any other component. 
 
 ### Laravel MVC
 
 The Laravel Web Application Framework follows the traditional Model-View-Controller design pattern.
-* Controllers handle user requests and retrieve data, by leveraging Models.
-* Models interact with the database and retrieve objects’ information. 
-* Views render pages. 
-* Routes are used to map URLs to designated controller actions 
+* __Controllers__ handle user requests and retrieve data, by leveraging Models.
+* __Models__ interact with the database and retrieve objects’ information. 
+* __Views__ render pages. 
+* __Routes__ are used to map URLs to designated controller actions 
 
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/MVC.jpg)
 
