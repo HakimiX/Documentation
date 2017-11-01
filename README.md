@@ -22,11 +22,14 @@ Our system will be a clone of the site HackerNews. It will include all of the ba
 
 ## Functional Requirements
 
-*
-*
-*
-*
-*
+* Users can publish a story
+* Users can comment a story
+* Users can reply a comment
+* Users can up-vote/down-vote a story
+* Users can read a story
+* Users can login
+* Guests can read stories 
+* Guests can register
 
 ## Non-Functional Requirements
 
@@ -101,9 +104,9 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 
 ## Bug Reports & Issues
 
-The objective of writing a bug report is to enable us to visualize the problem. We should be able to understand the defect from the bug report. Remember to give all the relevant information that we are seeking. The bug report must communicate “How?” and “Where?” and should clearly answer how the test was performed and where the defect occurred. We should be able to easily reproduce the bug and find where bug is. 
+The objective of writing a bug report is to enable us to visualize the problem. We should be able to understand the defect from the bug report. Remember to give all the relevant information that we are seeking. The bug report must communicate “How?” and “Where?” and should clearly answer how the test was performed and where the defect occurred. We should be able to easily reproduce the bug and find where the bug is. 
 
-Bug reports will be handled through Githubs issues tab on the project repository : REP HERE 
+Bug reports will be handled through Githubs issues tab in the project repository : REP HERE 
 
 __Submitting a report:__ 
 * Include a Bug ID to make reporting and referring easier. 
