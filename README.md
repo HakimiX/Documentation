@@ -1,0 +1,153 @@
+# Handover Documentation
+
+## Introduction 
+
+In this documentation we will establish a system overview and the essentials for the system, and a lead-in to what some of the most fundamental functionality that are present in the system.
+
+## System Overview
+
+The purpose of the system is to enable discussions and opinions for users by letting them create stories, which others may comment on. The users can also up or down vote a story if the user has 500+ karma points. Another important part of the system is that users can use an API that we have build, to post a specific story from their website, and other users will be able to comment on these specific stories. Overall the whole system is like a social network forum similar to Reddit. 
+
+## Objectives and Success Criteria
+
+The Objective & Success Criteria is to develop a clear understanding at a high-level of how functionality is performed in the current system (Hacker News). This also includes an understanding of the various use case scenarios and what functionality is required to complete each use case. “Leverage the information that is already available from HackerNews”.  
+
+* The system must have an uptime of 95% over a period of two months. 
+* Even when the system is down, it must be able to retrieve messages continuously.
+* The system must be accesable for everyone
+
+## Proposed
+
+Our system will be a clone of the site HackerNews. It will include all of the basic functionalities such as posting stories, commenting on stories, and up/down voting stories. We will have an basic front-end for the system, which will be user friendly and easy to use without having so much knowledge of how things work. 
+
+## Functional Requirements
+
+*
+*
+*
+*
+*
+
+## Non-Functional Requirements
+
+### Usability
+
+The usability is more has to be more or less the same as the current system. Meaning that the button convention should be the same, and the responds time(in milliseconds) for the buttons should be the same, etc. Usability testing would be an efficient way to ensure that our system works as the current system.
+
+### Reliability
+
+We are ensuring that there is no data loss, if the system for some reason is down. The system must have an uptime of 95% for two months. To prevent loss of data we will have an mechanism that will cache the incoming data, and prevent it from being lost. When the system is online again, the system will obtain the “lost” data from the mechanism. This will have an effect that will be like the system hasn’t been down at all, because we still get incoming data. 
+
+### Performance
+
+The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter, we can do whats called a stress test. Stress test could be done at stress periods, in these stress periods(months) there can special days where the system is extra busy, meaning there is extra load time. We can also compare the current system with the new system, to find out which one of them er performing best, or we can measure what part of the system is performing badly.
+
+### Supportability
+
+The users will have the support of an REST-API, to read different kind of data. The system that we are building has different kind of technical support, user will be able to read guidelines, FAQ(Frequently Asked Quistions), Support, Contact and a Search bar. Other services we planning on making for us as a team, are different kind of documentations, this one being one of them, and a test documentation(test cases, test plans). We will be using an framework to build the system, that will be great service for us as developer.
+
+### Implementation
+
+In a software context, implementation is all the post-sale processes involved in operating the software properly in its live environment. The implementation process will be designed with the end user in mind, because the participation of users in the design and implementation of the system, will serve their business objectives and reflect their priorities.
+
+We will start by negotiating a contract with a vendor with defined set of guidelines, deadlines and a payment schedule for the entire implementation process. Contract requirements will include system performance criteria, issue penalties and delays in the implementation process, documentation, training/tutorial and vendor support in case of problems when the system goes live. We may need a person with experience in project management as well as in the technical aspects of the technology, to oversee the implementation process.
+
+The key component to any implementation process is testing. We will gradually test the new system until it is ready to fully go live. We will be picking out glitches, shortcomings or problems of the system to further help the implementation process. After the testing phase, we will focus on educating/training users about the new system and how to use it before the system is ready to go live. When the system is about to go live, we will review/revisit the entire implementation process and verify that everything is complete.
+We will keep a close relationship with vendors to fix problems as they appear, problems such as deadlines or going over budget.
+
+
+### Interface
+
+The system will have three different interfaces:
+
+	* User interfaces - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system.
+	* Communication interfaces - the system shall use the HTTP protocol for communication over the internet.
+	* Application Programming Interface (API) - External programs shall be able to publish posts and comments to the system.
+
+
+## Architecture 
+
+### Subsystems 
+
+The Hacker news system is broken down into three well segmented subsystems with cleanly specified interfaces. The front-end application is implemented using Vue.js JavaScript Framework and is an abstraction, simplifying the underlying component by providing a user-friendly interface. The backend which is an application programming interface that unifies the communication between the application and a database is implemented using PHP 7.0 programming language and Laravel Web Application Framework. The data storage layer consists of a MySQL relational database. 
+
+MODEL HERE
+
+The design is separated into different areas of concern, which minimizes the complexity. The user interface, business processing and data access all represent different areas of concern. Within each area, the components focus on that specific area, and does not incorporate code from other areas of concern. For example, the front-end UI processing component does not include code that directly accesses the database, but instead makes use of data access component or business components to retrieve data. 
+
+### Design Principles
+
+While implementing the Hacker news system, we have made use of key design principles, which help us create an architecture that adheres to proven principles, minimizes maintenance requirements and promotes usability and extendibility. The key principles are:
+* Single Responsibility Principle (SRP).  Each component is responsible for only a specific feature or functionality. 
+* Principle of Least Knowledge (LOD). A component does not know about internal details of other components or objects.
+* Separation of concerns (SOC). The application is divided into distinct features with as little overlap in functionality. The focus is on minimizing the interaction points to achieve low coupling and high cohesion. 
+* Don’t Repeat Yourself (DRY). Intent is only specified in one place. Specific functionality should be implemented in only one component; the functionality is not duplicated in any other component. 
+
+### Laravel MVC
+
+The Laravel Web Application Framework follows the traditional Model-View-Controller design pattern.
+* Controllers handle user requests and retrieve data, by leveraging Models.
+* Models interact with the database and retrieve objects’ information. 
+* Views render pages. 
+* Routes are used to map URLs to designated controller actions 
+
+
+MODEL HERE
+
++ 1.	A request is made, when a user enters a URL associated with the application
++ 2.	A Route associated with that URL maps that URL to a Controller action
++ 3.	That Controller action leverages the necessary Models to retrieve information from the database, and the passes that data off to a View
++ 4.	And that View renders the final page 
+
+
+## Bug Reports & Issues
+
+The objective of writing a bug report is to enable us to visualize the problem. We should be able to understand the defect from the bug report. Remember to give all the relevant information that we are seeking. The bug report must communicate “How?” and “Where?” and should clearly answer how the test was performed and where the defect occurred. We should be able to easily reproduce the bug and find where bug is. 
+
+Bug reports will be handled through Githubs issues tab on the project repository : REP HERE 
+
+Submitting a report: 
+* Include a Bug ID to make reporting and referring easier. 
+* Include a Bug Title about the outcome in the bug. 
+* Include Priority based on the severity of the bug. Minimal, Major, Critical etc. 
+* Include Description to describe the problem encountered, to help us understand the bug. 
+* Include Expected/Actual results, to outline the outcome of the test and what you expected. 
+* Limit each submission to one issue 
+* Clear and concise steps to reproduce, and attach any necessary information, such as screenshots, logs etc. 
+
+
+Feel free to provide any feedback in regards to the system. We take all feedbacks with open arms. 
+
+
+## Team Behind
+
+Dev Ops - Kevin
+Email: MertDK@live.dk
+
+Product Owner - Mustafa
+Email: Mustafa.hakimi94@gmail.com
+
+Lead Developer - Ismail
+Email: i@bigstep.dk
+
+Architect - Mazlum
+Email: M@bigstep.dk
+
+Tester - Kristijan
+Email: Kristijan222@live.dk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
