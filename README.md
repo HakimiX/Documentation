@@ -60,9 +60,9 @@ We will keep a close relationship with vendors to fix problems as they appear, p
 
 The system will have three different interfaces:
 
-	* User interfaces - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system.
-	* Communication interfaces - the system shall use the HTTP protocol for communication over the internet.
-	* Application Programming Interface (API) - External programs shall be able to publish posts and comments to the system.
+* User interfaces - The user interface of the software shall be compatible to any browser such as Mozilla, Chrome or Internet Explorer by which user can access to the system.
+* Communication interfaces - the system shall use the HTTP protocol for communication over the internet.
+* Application Programming Interface (API) - External programs shall be able to publish posts and comments to the system.
 
 
 ## Architecture 
@@ -71,7 +71,7 @@ The system will have three different interfaces:
 
 The Hacker news system is broken down into three well segmented subsystems with cleanly specified interfaces. The front-end application is implemented using Vue.js JavaScript Framework and is an abstraction, simplifying the underlying component by providing a user-friendly interface. The backend which is an application programming interface that unifies the communication between the application and a database is implemented using PHP 7.0 programming language and Laravel Web Application Framework. The data storage layer consists of a MySQL relational database. 
 
-MODEL HERE
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/Subsystem.jpg)
 
 The design is separated into different areas of concern, which minimizes the complexity. The user interface, business processing and data access all represent different areas of concern. Within each area, the components focus on that specific area, and does not incorporate code from other areas of concern. For example, the front-end UI processing component does not include code that directly accesses the database, but instead makes use of data access component or business components to retrieve data. 
 
@@ -91,13 +91,12 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 * Views render pages. 
 * Routes are used to map URLs to designated controller actions 
 
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/MVC.jpg)
 
-MODEL HERE
-
-+ 1.	A request is made, when a user enters a URL associated with the application
-+ 2.	A Route associated with that URL maps that URL to a Controller action
-+ 3.	That Controller action leverages the necessary Models to retrieve information from the database, and the passes that data off to a View
-+ 4.	And that View renders the final page 
+1. A request is made, when a user enters a URL associated with the application
+2. A Route associated with that URL maps that URL to a Controller action
+3. That Controller action leverages the necessary Models to retrieve information from the database, and the passes that data off to a View
+4. And that View renders the final page 
 
 
 ## Bug Reports & Issues
