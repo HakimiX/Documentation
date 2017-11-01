@@ -78,7 +78,7 @@ The design is separated into different areas of concern, which minimizes the com
 ### Design Principles
 
 While implementing the Hacker news system, we have made use of key design principles, which help us create an architecture that adheres to proven principles, minimizes maintenance requirements and promotes usability and extendibility. The key principles are:
-* Single Responsibility Principle (SRP).  Each component is responsible for only a specific feature or functionality. 
+* _Single Responsibility Principle (SRP)_.  Each component is responsible for only a specific feature or functionality. 
 * Principle of Least Knowledge (LOD). A component does not know about internal details of other components or objects.
 * Separation of concerns (SOC). The application is divided into distinct features with as little overlap in functionality. The focus is on minimizing the interaction points to achieve low coupling and high cohesion. 
 * Don’t Repeat Yourself (DRY). Intent is only specified in one place. Specific functionality should be implemented in only one component; the functionality is not duplicated in any other component. 
