@@ -123,7 +123,7 @@ Feel free to provide any feedback in regards to the system. We take all feedback
 
 ## System Access & Credentials
 
-The front-end can be accessed via http://165.227.136.184/
+The back-end can be accessed via http://165.227.136.184/
 
 Credentials will be negotiated later
 
