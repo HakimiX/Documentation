@@ -101,7 +101,7 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 * __Views__ render pages. 
 * __Routes__ are used to map URLs to designated controller actions 
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/MVC.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/MVCModel.jpg)
 
 1. A request is made, when a user enters a URL associated with the application
 2. A Route associated with that URL maps that URL to a Controller action
