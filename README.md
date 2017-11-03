@@ -134,12 +134,15 @@ Feel free to provide any feedback in regards to the system. We take all feedback
 ### Environment
 
 * Lemp Stack
-	+ * Linux 16.04
-	+ * Nginx
-	+ * MySQL 5.7
-	+ * PHP 7.1
+	* Linux 16.04
+	* Nginx
+	* MySQL 5.7
+	* PHP 7.1
 
-![Text]()
+### Deployment Process
+
+
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeploymentModel.jpg)
 
 ## System Access & Credentials
 
