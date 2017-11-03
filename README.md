@@ -142,7 +142,7 @@ Feel free to provide any feedback in regards to the system. We take all feedback
 ### Deployment Process
 
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeploymentModel.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeployModel.jpg)
 
 ## System Access & Credentials
 
