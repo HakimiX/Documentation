@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-In this documentation we will establish a system overview and the essentials for the system, and a lead-in to what some of the most fundamental functionality that are present in the system.
+In this documentation we will establish an overview of the Hacker News system and the essentials for the system, and a lead-in to what some of the most fundamental functionality that are present in the system.
 
 ## System Overview
 
@@ -18,7 +18,7 @@ The Objective & Success Criteria is to develop a clear understanding at a high-l
 
 ## Proposed
 
-Our system will be a clone of the site HackerNews. It will include all of the basic functionalities such as posting stories, commenting on stories, and up/down voting stories. We will have an basic front-end for the system, which will be user friendly and easy to use without having so much knowledge of how things work. 
+Our system will be a clone of the Hacker News website. It will include all of the basic functionalities such as posting stories, commenting on stories, and up/down voting stories. The system will be accesable through a user friendly interface.
 
 ## Functional Requirements
 
@@ -35,28 +35,34 @@ Our system will be a clone of the site HackerNews. It will include all of the ba
 
 ### Usability
 
-The usability is more has to be more or less the same as the current system. Meaning that the button convention should be the same, and the responds time(in milliseconds) for the buttons should be the same, etc. Usability testing would be an efficient way to ensure that our system works as the current system.
+The usability is the degree to which the interface can be used by specified consumers to achieve objectives with effectiveness, efficiency and satisfaction in a context of use. When it comes to usability, the Hacker News clone will be the same as the current system, and that includes layout, design, buttons, text etc. The system will have a consistent design throughout. The following model shows what we have taken into consideration during the development og the Front-end
+
+![Text]()
+
 
 ### Reliability
 
-We are ensuring that there is no data loss, if the system for some reason is down. The system must have an uptime of 95% for two months. To prevent loss of data we will have an mechanism that will cache the incoming data, and prevent it from being lost. When the system is online again, the system will obtain the “lost” data from the mechanism. This will have an effect that will be like the system hasn’t been down at all, because we still get incoming data. 
+Uptime is of foremost importance. Any outage can be seen by users as a frustration, or opportunity to move to another system. We will ensure that the Hacker News system will have an uptime of at least 95%. To prevent loss of data, we will make use Zero Downtime Deployment. Our application will be able to introduce a new version to production without making the user see that the application went down in the meantime. This is the best possible scenario of deployment since new features can be introduced and bugs can be eliminated without any outage. The following model illustrates Zero Downtime deployment.
+
+![Text]()
+
 
 ### Performance
 
-The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter, we can do whats called a stress test. Stress test could be done at stress periods, in these stress periods(months) there can special days where the system is extra busy, meaning there is extra load time. We can also compare the current system with the new system, to find out which one of them er performing best, or we can measure what part of the system is performing badly.
+The system should be able to work under stress, meaning that there should not occur any problems if the amount of users is increasing rapidly. This can be tested using JMeter, we can do whats called a stress test. Stress test could be done at stress periods, in these stress periods(months) there can special days where the system is extra busy, meaning there is extra load time. We can also compare the current system with the new system, to find out which one of them is performing best, or we can measure what part of the system is performing badly.
 
 ### Supportability
 
-The users will have the support of an REST-API, to read different kind of data. The system that we are building has different kind of technical support, user will be able to read guidelines, FAQ(Frequently Asked Quistions), Support, Contact and a Search bar. Other services we planning on making for us as a team, are different kind of documentations, this one being one of them, and a test documentation(test cases, test plans). We will be using an framework to build the system, that will be great service for us as developer.
+The system can be accessed through an API (Application Programming Interface). 
+The system will have several types of technical support such as guidelines, FAQ, Email support etc. Other features that facilitate servicability that we could implement include: Documentation, Analyzing, or Event logging/tracing. 
 
 ### Implementation
 
 In a software context, implementation is all the post-sale processes involved in operating the software properly in its live environment. The implementation process will be designed with the end user in mind, because the participation of users in the design and implementation of the system, will serve their business objectives and reflect their priorities.
 
-We will start by negotiating a contract with a vendor with defined set of guidelines, deadlines and a payment schedule for the entire implementation process. Contract requirements will include system performance criteria, issue penalties and delays in the implementation process, documentation, training/tutorial and vendor support in case of problems when the system goes live. We may need a person with experience in project management as well as in the technical aspects of the technology, to oversee the implementation process.
+We will start by finding a server to deploy the application. We could possibly negotiate a contract with defined set of guidelines, deadlines and a payment schedule for the entire implementation process. Contract requirements could include system performance criteria, documentation and support in case of problems when the system goes live. 
 
 The key component to any implementation process is testing. We will gradually test the new system until it is ready to fully go live. We will be picking out glitches, shortcomings or problems of the system to further help the implementation process. After the testing phase, we will focus on educating/training users about the new system and how to use it before the system is ready to go live. When the system is about to go live, we will review/revisit the entire implementation process and verify that everything is complete.
-We will keep a close relationship with vendors to fix problems as they appear, problems such as deadlines or going over budget.
 
 
 ### Interface
@@ -67,6 +73,7 @@ The system will have three different interfaces:
 * __Communication interfaces__ - the system shall use the HTTP protocol for communication over the internet.
 * __Application Programming Interface (API)__ - External programs shall be able to publish posts and comments to the system.
 
+![Text]()
 
 ## Architecture 
 
@@ -100,6 +107,10 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 2. A Route associated with that URL maps that URL to a Controller action
 3. That Controller action leverages the necessary Models to retrieve information from the database, and the passes that data off to a View
 4. And that View renders the final page 
+
+
+### Data Flow Process
+
 
 
 ## Bug Reports & Issues
