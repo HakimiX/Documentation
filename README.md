@@ -141,9 +141,11 @@ Credentials will be negotiated later
 
 | ROLE | NAME | EMAIL |
 |------|------|-------|
-|DEV OPS      |KEVIN      |  MertDK@live.dk     |
-|      |      |       | 
-|      |      |       |
+|Dev Ops      |Kevin Turan     |  MertDK@live.dk     |
+|Product Owner      |Mustafa Hakimi      |Mustafa.hakimi94@gmail.com       | 
+|Lead Developer      |Ismail Cam      |i@bigstep.dk       |
+|Architect|Mazlum D. Sert|M@bigstep.dk|
+|Tester|Kristijan Krsteski|Kristijan222@live.dk|
 
 __Dev Ops__ - Kevin
 Email: MertDK@live.dk
