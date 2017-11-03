@@ -139,6 +139,12 @@ Credentials will be negotiated later
 
 ## Team Behind
 
+| ROLE | NAME | EMAIL |
+|------|------|-------|
+|DEV OPS      |KEVIN      |  MertDK@live.dk     |
+|      |      |       | 
+|      |      |       |
+
 __Dev Ops__ - Kevin
 Email: MertDK@live.dk
 
