@@ -42,7 +42,7 @@ The usability is the degree to which the interface can be used by specified cons
 
 ### Reliability
 
-Uptime is of foremost importance. Any outage can be seen by users as a frustration, or opportunity to move to another system. We will ensure that the Hacker News system will have an uptime of at least 95%. To prevent loss of data, we will make use Zero Downtime Deployment. Our application will be able to introduce a new version to production without making the user see that the application went down in the meantime. This is the best possible scenario of deployment since new features can be introduced and bugs can be eliminated without any outage. The following model illustrates Zero Downtime deployment.
+Uptime is of foremost importance. Any outage can be seen by users as a frustration, or opportunity to move to another system. We will ensure that the Hacker News system will have an uptime of at least 95%. To prevent loss of data, we will make use of Zero Downtime Deployment. Our application will be able to introduce a new version to production without making the user see that the application went down in the meantime. This is the best possible scenario of deployment since new features can be introduced and bugs can be eliminated without any outage. The following model illustrates Zero Downtime deployment.
 
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/LBmodel.jpg)
 
