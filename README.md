@@ -18,7 +18,7 @@ The Objective & Success Criteria is to develop a clear understanding at a high-l
 
 ## Proposed
 
-Our system will be a clone of the Hacker News website. It will include all of the basic functionalities such as posting stories, commenting on stories, and up/down voting stories. The system will be accesable through a user friendly interface.
+Our system will be a clone of the Hacker News website. It will include all of the basic functionalities such as posting stories, commenting on stories, and up/down voting stories. The system will be accesable through a user friendly interface and an Application Programming Interface (API)
 
 ## Functional Requirements
 
