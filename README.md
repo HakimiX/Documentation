@@ -111,7 +111,6 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 4. And that View renders the final page 
 
 
-
 ## Bug Reports & Issues
 
 The objective of writing a bug report is to enable us to visualize the problem. We should be able to understand the defect from the bug report. Remember to give all the relevant information that we are seeking. The bug report must communicate “How?” and “Where?” and should clearly answer how the test was performed and where the defect occurred. We should be able to easily reproduce the bug and find where the bug is. 
@@ -130,6 +129,17 @@ __Submitting a report:__
 
 Feel free to provide any feedback in regards to the system. We take all feedbacks with open arms. 
 
+## Deployment
+
+### Environment
+
+* Lemp Stack
+	+ * Linux 16.04
+	+ * Nginx
+	+ * MySQL 5.7
+	+ * PHP 7.1
+
+![Text]()
 
 ## System Access & Credentials
 
@@ -137,7 +147,7 @@ The back-end can be accessed via http://165.227.136.184/
 
 Credentials will be negotiated later
 
-## Team Behind
+## Development Team
 
 | ROLE | NAME | EMAIL |
 |------|------|-------|
@@ -147,20 +157,6 @@ Credentials will be negotiated later
 |Architect|Mazlum D. Sert|M@bigstep.dk|
 |Tester|Kristijan Krsteski|Kristijan222@live.dk|
 
-__Dev Ops__ - Kevin
-Email: MertDK@live.dk
-
-__Product Owner__ - Mustafa
-Email: Mustafa.hakimi94@gmail.com
-
-__Lead Developer__ - Ismail
-Email: i@bigstep.dk
-
-__Architect__ - Mazlum
-Email: M@bigstep.dk
-
-__Tester__ - Kristijan
-Email: Kristijan222@live.dk
 
 
 
