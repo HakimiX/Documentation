@@ -37,14 +37,14 @@ Our system will be a clone of the Hacker News website. It will include all of th
 
 The usability is the degree to which the interface can be used by specified consumers to achieve objectives with effectiveness, efficiency and satisfaction in a context of use. When it comes to usability, the Hacker News clone will be the same as the current system, and that includes layout, design, buttons, text etc. The system will have a consistent design throughout. The following model shows what we have taken into consideration during the development of the Front-end
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/Usability%20Model.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/UsabilityModel.jpg)
 
 
 ### Reliability
 
 Uptime is of foremost importance. Any outage can be seen by users as a frustration, or opportunity to move to another system. We will ensure that the Hacker News system will have an uptime of at least 95%. To prevent loss of data, we will make use Zero Downtime Deployment. Our application will be able to introduce a new version to production without making the user see that the application went down in the meantime. This is the best possible scenario of deployment since new features can be introduced and bugs can be eliminated without any outage. The following model illustrates Zero Downtime deployment.
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/ZeroDowntimeModel.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/LBmodel.jpg)
 
 
 ### Performance
