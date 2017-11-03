@@ -93,7 +93,9 @@ While implementing the Hacker news system, we have made use of key design princi
 * __Separation of concerns (SOC)__. The application is divided into distinct features with as little overlap in functionality. The focus is on minimizing the interaction points to achieve low coupling and high cohesion. 
 * __Don’t Repeat Yourself (DRY)__. Intent is only specified in one place. Specific functionality should be implemented in only one component; the functionality is not duplicated in any other component. 
 
-### Data Flow Process - Laravel MVC
+## Data Flow Process
+
+### Laravel MVC
 
 The Laravel Web Application Framework follows the traditional Model-View-Controller design pattern.
 * __Controllers__ handle user requests and retrieve data, by leveraging Models.
@@ -107,9 +109,6 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 2. A Route associated with that URL maps that URL to a Controller action
 3. That Controller action leverages the necessary Models to retrieve information from the database, and the passes that data off to a View
 4. And that View renders the final page 
-
-
-### Data Flow Process
 
 
 
