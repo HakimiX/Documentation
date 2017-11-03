@@ -73,7 +73,7 @@ The system will have three different interfaces:
 * __Communication interfaces__ - the system shall use the HTTP protocol for communication over the internet.
 * __Application Programming Interface (API)__ - External programs shall be able to publish posts and comments to the system.
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/Interfaces.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/InterfacesModel.jpg)
 
 ## Architecture 
 
