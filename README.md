@@ -151,6 +151,10 @@ Whenever we run the build, Travis CI clones the GitHub repository into a new vir
 ![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeployModel.jpg)
 
 
+### Cloud Service
+
+We have used Digital Ocean cloud services to help deploy and scale our application. 
+
 ## Issue Submission & Resolution
 
 ### Bug Reports & Issues
@@ -172,10 +176,13 @@ __Submitting a report:__
 Feel free to provide any feedback in regards to the system. We take all feedbacks with open arms. 
 
 
-
 ## System Access & Credentials
 
+### Access 
+
 The back-end can be accessed via http://165.227.136.184/
+
+### Credentials
 
 Credentials will be negotiated later
 
