@@ -135,7 +135,7 @@ Whenever we run the build, Travis CI clones the GitHub repository into a new vir
 * Travis CI trigs the push and runs the tests.
 * Then Forge is trigged by Travis CI and deploy the changes to the remote server.
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/MVCModel.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/CDflow.png)
 
 ### Deployment Environment
 
@@ -148,7 +148,7 @@ Whenever we run the build, Travis CI clones the GitHub repository into a new vir
 ### Deployment Process
 
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/CDflow.png)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeployModel.jpg)
 
 
 ## Issue Submission & Resolution
