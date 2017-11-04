@@ -184,6 +184,10 @@ If there is anything you're unsure about or have any questions, feel free to con
 
 The back-end can be accessed via http://165.227.136.184/
 
+### System Inner State
+
+The system log files can be accessed via http://165.227.136.184/logs
+
 ### Credentials
 
 Credentials will be negotiated later
