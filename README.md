@@ -111,6 +111,48 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 4. And that View renders the final page 
 
 
+## Workflow
+
+### Github
+
+We will be working on different features and functionality simultaneously – some of them are ready to be pushed and others which are not. Branching is going to help us manage the workflow.
+
+We will make use of branching to create individual environments where we can try out different features and functionality. The changes we make to the branch will not affect the master branch, which means that we are free to experiment and commit changes, safe in the knowledge that the individual branches will not merge until it’s ready to be reviewed by the Lead Developer (Ismail). The entire GitHub workflow is based upon branching, because it’s a fundamental concept in Git. We will therefor make sure that the individual branches are created off of the master branch when working on a specific functionality or fix. In addition, we will make use of descriptive names, so that other team members can see what is being worked on.
+
+Whenever changes are made, such as adding, deleting or fixing files, we will make a commit and add them to the branch. This will keep track of our progress as we work on different branches. The commits will also help team members to understand what has been done and why. We will make sure to use descriptive associated commit messages to clarify changes.
+
+### Travis Continuous Integration and Laravel Forge
+
+Travis CI will merge small code changes frequently – rather than merging in a large change at the end of a development cycle. The main goal is to create robust software by developing and testing in smaller increments. This is where Travis CI shines.
+
+Travis CI will be supporting our development process by automatically building and testing code changes, providing instant feedback on the success of the changes. Travis CI will also automate the deployment to Laravel Forge.
+
+Whenever we run the build, Travis CI clones the GitHub repository into a new virtual environment, and performs a series of tasks to build and test our code. If one or more of the tasks fails, the build is considered broken. If none of the tasks fail, the build is considered passed, and Travis CI will deploy the code to the remote web server by triggering Laravel Forge (PHP server).
+
+### Continuous Deployment Process
+
+* Push to master branch on Github.
+* Travis CI trigs the push and runs the tests.
+* Then Forge is trigged by Travis CI and deploy the changes to the remote server.
+
+
+
+## Deployment
+
+### Environment
+
+* Lemp Stack
+	* Linux 16.04
+	* Nginx
+	* MySQL 5.7
+	* PHP 7.1
+
+### Deployment Process
+
+
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeployModel.jpg)
+
+
 ## Issue Submission & Resolution
 
 ### Bug Reports & Issues
@@ -131,20 +173,7 @@ __Submitting a report:__
 
 Feel free to provide any feedback in regards to the system. We take all feedbacks with open arms. 
 
-## Deployment
 
-### Environment
-
-* Lemp Stack
-	* Linux 16.04
-	* Nginx
-	* MySQL 5.7
-	* PHP 7.1
-
-### Deployment Process
-
-
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeployModel.jpg)
 
 ## System Access & Credentials
 
