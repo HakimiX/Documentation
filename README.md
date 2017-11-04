@@ -37,7 +37,7 @@ Our system will be a clone of the Hacker News website. It will include all of th
 
 The usability is the degree to which the interface can be used by specified consumers to achieve objectives with effectiveness, efficiency and satisfaction in a context of use. When it comes to usability, the Hacker News clone will be the same as the current system, and that includes layout, design, buttons, text etc. The system will have a consistent design throughout. The following model shows what we have taken into consideration during the development of the Front-end
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/UsabilityModel.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/UsabilityModell.jpg)
 
 
 ### Reliability
