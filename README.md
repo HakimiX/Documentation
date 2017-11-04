@@ -111,7 +111,7 @@ The Laravel Web Application Framework follows the traditional Model-View-Control
 4. And that View renders the final page 
 
 
-## Workflow
+## Workflow & Deployment
 
 ### Github
 
@@ -135,11 +135,9 @@ Whenever we run the build, Travis CI clones the GitHub repository into a new vir
 * Travis CI trigs the push and runs the tests.
 * Then Forge is trigged by Travis CI and deploy the changes to the remote server.
 
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/MVCModel.jpg)
 
-
-## Deployment
-
-### Environment
+### Deployment Environment
 
 * Lemp Stack
 	* Linux 16.04
@@ -150,7 +148,7 @@ Whenever we run the build, Travis CI clones the GitHub repository into a new vir
 ### Deployment Process
 
 
-![Text](https://github.com/HakimiX/Documentation/blob/master/Models/DeployModel.jpg)
+![Text](https://github.com/HakimiX/Documentation/blob/master/Models/CDflow.png)
 
 
 ## Issue Submission & Resolution
