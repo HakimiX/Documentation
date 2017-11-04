@@ -173,7 +173,9 @@ __Submitting a report:__
 * Clear and concise steps to reproduce, and attach any necessary information, such as screenshots, logs etc. 
 
 
-Feel free to provide any feedback in regards to the system. We take all feedbacks with open arms. 
+### Support 
+
+If there is anything you're unsure about or have any questions, feel free to contact us via email. Contact information is listed in the bottom of the document. 
 
 
 ## System Access & Credentials
